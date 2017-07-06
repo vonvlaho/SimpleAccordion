@@ -1,0 +1,31 @@
+/* no-js, works with modernizr */
+.no-js .accbody {
+	opacity: 1;
+	height: auto;
+}
+
+/* Accordion */
+.acchead {
+	margin: 0;
+	cursor: pointer;
+	transition-duration: 0.5s;
+}
+.accbody {
+	overflow: hidden;
+	opacity: 0;
+	height: 0;
+}
+.accopen {
+	opacity: 1;
+	height: auto;
+	transition-duration: 0.5s;
+}
+.showall, .hideall {
+	cursor: pointer;
+	margin-right: 1em;
+}
+.rotate {
+	/*some sort of :active-function*/
+	transition-duration: 0.5s;
+	color: #1eaedb;
+}
